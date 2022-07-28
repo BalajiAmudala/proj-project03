@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(43,41,34);
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+}
+.nav{
+    padding:30px
+}
+.logo{
+    width:90px;
+    margin-left: 40px;
+    position: relative;
+    top:8px
+}
+.nav-links{
+    display: inline-block;
+    position: relative;
+    left:250px
+}
+.nav-items{
+    text-decoration: none;
+    color: rgb(123,121,114);
+    font-family: sans-serif;
+    margin-left: 35px;
+}
+.nav-items:hover{
+    color: rgb(231,230,228);
+}
+.start-btn{
+    position: relative;
+    left:280px;
+    color: rgb(160,143,54);
+    border:1px solid rgb(160,143,54);
+    border-radius: 5px;
+    padding:10px 30px;
+    background-color:rgb(43,41,34) ;
+    cursor: pointer;
+}
+.start-btn:hover{
+    background-color:rgb(160,143,54);
+    color:rgb(43,41,34) ;
+}
+.priority{
+    display: inline-block;
+    color:rgb(214,240,239);
+    font-family: sans-serif;
+    margin-left: 63px;
+    font-size: 55px;
+}
+.justice{
+    display: inline-block;
+    color: rgb(123,121,114);
+    font-family: sans-serif;
+    position: relative;
+    top:-10px;
+    left:145px;
+    line-height: 25px;
+}
+.law{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.right-arrow{
+    margin:0px;
+    position: relative;
+    left: 895px;
+    cursor: pointer;
+}
+.left{
+    margin:0px;
+    position: relative;
+    left: 900px;
+    cursor: pointer;
+}
